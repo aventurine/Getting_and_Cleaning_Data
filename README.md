@@ -26,7 +26,7 @@ Finally, the researchers estimated a set of 17 variables from each signal. Of th
 
 It must be noted that the descriptions and labels of the signal features produced in Step B differ in [2] and [3]. In [3], jerk is correctly described as the time derivative of acceleration, rather than that of velocity, as in [2], and the time derivative of angular velocity is correctly referred to as angular acceleration, not jerk. However, the feature labels in the actual data file follow [2], not [3], as shown in Table 1. Thus, in transforming the feature labels into variable names, as described in the next section, the labeling in [2] and the data file is followed.
 
-[Table 1](https://github.com/aventurine/aventurine.github.io/Table 1.gif)
+[Table 1](https://github.com/aventurine/aventurine.github.io/blob/master/Table%201.gif)
 
 ## Feature Label-to-Variable Name Transformations
 The feature labels in the HAR data set have a characteristic of messy datasets, as identified on page 5 of [5]: “multiple variables are stored in one column.” For example, tBodyGyroJerk-mean()-X contains values of six variables. 
@@ -47,7 +47,7 @@ These six variables are listed here, along with their possible values and (in pa
 
 Table 2 shows the complete mapping of components of the HAR feature labels to these variables and their values. 
 
-[Table 2](https://github.com/aventurine/aventurine.github.io/Table 2.gif)
+[Table 2](https://github.com/aventurine/aventurine.github.io/blob/master/Table%202.gif)
 
 To create the tidy data set, I heeded two principles listed on page 4 of [5]:
 
